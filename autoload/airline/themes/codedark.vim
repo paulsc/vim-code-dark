@@ -48,9 +48,9 @@ let s:cdLightBlue = {'gui': '#5CB6F8', 'cterm': (g:codedark_term256 ? '75' : s:c
 let s:cdYellow = {'gui': '#FFAF00', 'cterm': (g:codedark_term256 ? '214' : s:cterm0A)}
 let s:cdRed = {'gui': '#F44747', 'cterm': (g:codedark_term256 ? '203' : s:cterm08)}
 
-let s:cdDarkDarkDark = {'gui': '#262626', 'cterm': (g:codedark_term256 ? '235' : s:cterm01)}
-let s:cdDarkDark = {'gui': '#303030', 'cterm': (g:codedark_term256 ? '236' : s:cterm02)}
-let s:cdDark = {'gui': '#3C3C3C', 'cterm': (g:codedark_term256 ? '237' : s:cterm03)}
+let s:cdDarkDarkDark = {'gui': '#404040', 'cterm': (g:codedark_term256 ? '238' : s:cterm01)}
+let s:cdDarkDark = {'gui': '#4d4d4d', 'cterm': (g:codedark_term256 ? '239' : s:cterm02)}
+let s:cdDark = {'gui': '#595959', 'cterm': (g:codedark_term256 ? '240' : s:cterm03)}
 
 let s:Warning = [ s:cdRed.gui, s:cdDarkDark.gui, s:cdRed.cterm, s:cdDarkDark.cterm, 'none']
 
